@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!-- saved from url=(0216)https://webshell.suite.office.com/iframe/TokenFactoryIframe?origin=https%3A%2F%2Foutlook.office365.com&shsid=8f71508c-6997-4db7-962e-c4cd73827eae&apiver=oneshell&cshver=20220823.2&upn=Liseth.Diaz%40students.jmcss.org -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script type="text/javascript" src="./suiteux.shell.msaltokenfactoryiframe.d809fa98a69462f80b74.js.download"></script>
+</head>
+<body>
+    <script type="text/javascript" nonce="">
+        
+                var requestExecutorSettings = {
+                    originAuthorityValidator: O365SuiteServiceProxy.ServiceHandlers.validateOrigin,
+                    trustedOriginAuthorities: ["\u005Eoutlook\\.office365\\.com\u0024"],
+                    allowedEndpoints: [{host: "^webshell\\.suite\\.office\\.com$",paths: ["^api/(.*?)"]},{host: "^ocws\\.officeapps\\.live\\.com$",paths: ["^ocs/(.*?)"]},{host: "^graph\\.microsoft\\.com$",paths: ["^v1\\.0/(.*?)"]},{host: "^management\\.azure\\.com$",paths: ["^providers/Microsoft.BusinessAppDiscovery/(.*?)"]},{host: "^outlook\\.office\\.com$",paths: ["^/calendar/opxdeeplink/myday$"]}],
+                    allowedResources: [{resource: "api.office.net",hosts: ["ocws.officeapps.live.com"]},{resource: "graph.microsoft.com",hosts: ["graph.microsoft.com"]},{resource: "webshell.suite.office.com",hosts: ["webshell.suite.office.com"]},{resource: "management.azure.com",hosts: ["management.azure.com"]},{resource: "outlook.office.com",hosts: ["outlook.office.com"]}],
+                    shouldAttachOauthTokens: true,
+                    trustedOriginAuthoritiesSetFromServer: true
+                };
+
+                O365SuiteServiceProxy.RequestExecutorMessageProcessor.init(requestExecutorSettings);
+
+                var tokenFactorySettings = {
+                    clientId: "89bee1f7-5e6e-4d8a-9f3d-ecd601259da7",
+                    authority: "https\u003A//login.microsoftonline.com/organizations",
+                    cacheLocation: "sessionStorage",
+                    parentPageOrigin: "https\u003A//outlook.office365.com",
+                    upn: "Liseth.Diaz\u0040students.jmcss.org"
+                };
+
+                O365MSALTokenFactoryIframe.TokenFactoryInsideIframe.init(tokenFactorySettings);
+    </script>
+
+</body></html>
